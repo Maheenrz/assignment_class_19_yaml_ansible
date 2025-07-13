@@ -1,0 +1,13 @@
+---
+app:
+  name: my-ec2-app
+  port: 8080
+
+database:
+  name: student_db
+  user: admin
+  password: secret
+
+services:
+  - backend
+  - frontend
